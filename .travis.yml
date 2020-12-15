@@ -50,6 +50,12 @@ env:
     - builder=cmake CXX=g++-5 CC=gcc-5 COMP=g++-5
     - builder=qmake CXX=g++-5 CC=gcc-5 COMP=g++-5
     - builder=qmake CXX=g++-6 CC=gcc-6 COMP=g++-6
+    - builder=cmake CXX=clang++-3.8 CC=clang-3.8 COMP="clang-3.8 g++-5" arch=ppc64le
+    - builder=qmake CXX=clang++-3.8 CC=clang-3.8 COMP="clang-3.8 g++-5" arch=ppc64le
+    - builder=cmake CXX=g++-5 CC=gcc-5 COMP=g++-5 arch=ppc64le
+    - builder=qmake CXX=g++-5 CC=gcc-5 COMP=g++-5 arch=ppc64le
+    - builder=qmake CXX=g++-6 CC=gcc-6 COMP=g++-6 arch=ppc64le
+
   global:
     - AF="-yq --no-install-suggests --no-install-recommends --force-yes" QMAKE=qmake
 
