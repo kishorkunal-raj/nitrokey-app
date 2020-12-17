@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.2" language="fr">
+<TS version="2.1" language="fr">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -180,7 +180,7 @@ Merci de réessayer</translation>
     <name>Authentication</name>
     <message>
         <source>Wrong PIN. Please try again.</source>
-        <translation>Mauvais PIN. Merci de réessayer.</translation>
+        <translation type="vanished">Mauvais PIN. Merci de réessayer.</translation>
     </message>
 </context>
 <context>
@@ -435,24 +435,8 @@ Merci de réessayer</translation>
         <translation>Intervalle du TOTP :</translation>
     </message>
     <message>
-        <source>Token ID</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Send token ID</source>
-        <translation>Envoyer le token ID</translation>
-    </message>
-    <message>
-        <source>MUI:</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>TT:</source>
-        <translation></translation>
-    </message>
-    <message>
-        <source>OMP:</source>
-        <translation></translation>
+        <translation type="vanished">Envoyer le token ID</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -472,7 +456,7 @@ Merci de réessayer</translation>
     </message>
     <message>
         <source>Send &apos;enter&apos; as the last keystroke</source>
-        <translation>Appuyez sur &apos;Entrée&apos; en dernière touche</translation>
+        <translation type="vanished">Appuyez sur &apos;Entrée&apos; en dernière touche</translation>
     </message>
     <message>
         <source>00000000000000000000</source>
@@ -488,27 +472,27 @@ Merci de réessayer</translation>
     </message>
     <message>
         <source>Double press NumLock:</source>
-        <translation>Appuyez deux fois sur VerrNum :</translation>
+        <translation type="vanished">Appuyez deux fois sur VerrNum :</translation>
     </message>
     <message>
         <source>Double press CapsLock:</source>
-        <translation>Appuyez deux fois sur VerrMaj :</translation>
+        <translation type="vanished">Appuyez deux fois sur VerrMaj :</translation>
     </message>
     <message>
         <source>Double press ScrollLock:</source>
-        <translation>Appuyez deux fois sur ScrollLock :</translation>
+        <translation type="vanished">Appuyez deux fois sur ScrollLock :</translation>
     </message>
     <message>
         <source>Do nothing</source>
-        <translation>Ne rien faire</translation>
+        <translation type="vanished">Ne rien faire</translation>
     </message>
     <message>
         <source>Send HOTP1</source>
-        <translation>Envoyer HOTP1</translation>
+        <translation type="vanished">Envoyer HOTP1</translation>
     </message>
     <message>
         <source>Send HOTP2</source>
-        <translation>Envoyer HOTP2</translation>
+        <translation type="vanished">Envoyer HOTP2</translation>
     </message>
     <message>
         <source>Password Safe</source>
@@ -798,19 +782,19 @@ Veuillez sélectionner l&apos;option &quot;Initialiser la clef avec des données
     </message>
     <message>
         <source>OMP part of Token ID</source>
-        <translation>Partie OMP du Token ID</translation>
+        <translation type="vanished">Partie OMP du Token ID</translation>
     </message>
     <message>
         <source>TT part of Token ID</source>
-        <translation>Partie TT du Token ID</translation>
+        <translation type="vanished">Partie TT du Token ID</translation>
     </message>
     <message>
         <source>MUI part of Token ID</source>
-        <translation>Partie MUI du Token ID</translation>
+        <translation type="vanished">Partie MUI du Token ID</translation>
     </message>
     <message>
         <source>Settings for inserting HOTP code through special key shortcut (USB-Keyboard only)</source>
-        <translation>Paramètres d&apos;insertion d&apos;un code HOTP à l&apos;aide d&apos;un raccourci clavier (clavier USB seulement)</translation>
+        <translation type="vanished">Paramètres d&apos;insertion d&apos;un code HOTP à l&apos;aide d&apos;un raccourci clavier (clavier USB seulement)</translation>
     </message>
     <message>
         <source>Erase Password Safe slot</source>
@@ -1071,6 +1055,14 @@ Select &quot;Initialize device&quot; option from context menu.</source>
         <translation>Attention : le volume chiffré n&apos;est pas sécurisé,
 Veuillez sélectionner l&apos;option &quot;Initialiser la clef&quot; dans le menu contextuel.</translation>
     </message>
+    <message>
+        <source>Generated secret target length (bytes):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show main window on start</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PinDialog</name>
@@ -1166,7 +1158,7 @@ Merci de changer le PIN.</translation>
     <message>
         <source>Critical error encountered. Please restart application.
 Message: </source>
-        <translation>Une erreur critique est survenue. Merci de redémarrer l&apos;application.
+        <translation type="vanished">Une erreur critique est survenue. Merci de redémarrer l&apos;application.
 Message : </translation>
     </message>
 </context>
@@ -1182,341 +1174,321 @@ Message : </translation>
     <message>
         <source>This activity locks your hidden volume. Do you want to proceed?
 To avoid data loss, please unmount the partitions before proceeding.</source>
-        <translation>Cette activité verrouille votre volume caché. Êtes vous sûr de vouloir continuer ?
+        <translation type="vanished">Cette activité verrouille votre volume caché. Êtes vous sûr de vouloir continuer ?
 Pour éviter toute perte de données, merci de démonter les partitions avant de continuer.</translation>
     </message>
     <message>
         <source>Enabling encrypted volume</source>
-        <translation>Activation du volume chiffré</translation>
+        <translation type="vanished">Activation du volume chiffré</translation>
     </message>
     <message>
         <source>Encrypted volume enabled</source>
-        <translation>Volume chiffré activé</translation>
+        <translation type="vanished">Volume chiffré activé</translation>
     </message>
     <message>
         <source>Could not enable encrypted volume.</source>
-        <translation>Impossible d&apos;activer le volume chiffré.</translation>
+        <translation type="vanished">Impossible d&apos;activer le volume chiffré.</translation>
     </message>
     <message>
         <source>Wrong password.</source>
-        <translation>Mauvais mot de passe.</translation>
+        <translation type="vanished">Mauvais mot de passe.</translation>
     </message>
     <message>
         <source>Status code: %1</source>
-        <translation>Code de statut : %1</translation>
+        <translation type="vanished">Code de statut : %1</translation>
     </message>
     <message>
         <source>This activity locks your encrypted volume. Do you want to proceed?
 To avoid data loss, please unmount the partitions before proceeding.</source>
-        <translation>Cette activité verrouille votre volume chiffré. Êtes vous sûr de vouloir continuer ?
+        <translation type="vanished">Cette activité verrouille votre volume chiffré. Êtes vous sûr de vouloir continuer ?
 Pour éviter toute perte de données, merci de démonter les partitions avant de continuer.</translation>
     </message>
     <message>
         <source>Disabling encrypted volume</source>
-        <translation>Désactivation du volume chiffré</translation>
+        <translation type="vanished">Désactivation du volume chiffré</translation>
     </message>
     <message>
         <source>Encrypted volume disabled</source>
-        <translation>Volume chiffré désactivé</translation>
+        <translation type="vanished">Volume chiffré désactivé</translation>
     </message>
     <message>
         <source>Could not lock encrypted volume.</source>
-        <translation>Impossible de verrouiller le volume chiffré.</translation>
+        <translation type="vanished">Impossible de verrouiller le volume chiffré.</translation>
     </message>
     <message>
         <source>Please enable the encrypted volume first.</source>
-        <translation>Merci d&apos;activer le volume chiffré avant toute chose.</translation>
+        <translation type="vanished">Merci d&apos;activer le volume chiffré avant toute chose.</translation>
     </message>
     <message>
         <source>Enabling hidden volume</source>
-        <translation>Activation du volume caché</translation>
+        <translation type="vanished">Activation du volume caché</translation>
     </message>
     <message>
         <source>Hidden volume enabled</source>
-        <translation>Volume caché activé</translation>
+        <translation type="vanished">Volume caché activé</translation>
     </message>
     <message>
         <source>Could not enable hidden volume.</source>
-        <translation>Impossible d&apos;activer le volume caché.</translation>
+        <translation type="vanished">Impossible d&apos;activer le volume caché.</translation>
     </message>
     <message>
         <source>Disabling hidden volume</source>
-        <translation>Désactivation du volume caché</translation>
+        <translation type="vanished">Désactivation du volume caché</translation>
     </message>
     <message>
         <source>Hidden volume disabled</source>
-        <translation>Volume caché désactivé</translation>
+        <translation type="vanished">Volume caché désactivé</translation>
     </message>
     <message>
         <source>Could not lock hidden volume.</source>
-        <translation>Impossible de verrouiller le volume caché.</translation>
+        <translation type="vanished">Impossible de verrouiller le volume caché.</translation>
     </message>
     <message>
         <source>Locking device</source>
-        <translation>Verrouillage de la clef</translation>
+        <translation type="vanished">Verrouillage de la clef</translation>
     </message>
     <message>
         <source>Device locked</source>
-        <translation>Clef verrouillée</translation>
+        <translation type="vanished">Clef verrouillée</translation>
     </message>
     <message>
         <source>Could not lock device.</source>
-        <translation>Impossible de verrouiller la clef.</translation>
+        <translation type="vanished">Impossible de verrouiller la clef.</translation>
     </message>
     <message>
         <source>Device set in update mode</source>
-        <translation>La clef est en mode de mise à jour</translation>
+        <translation type="vanished">La clef est en mode de mise à jour</translation>
     </message>
     <message>
         <source>Device could not be set in update mode.</source>
-        <translation>Impossible de mettre la clef en mode de mise à jour.</translation>
+        <translation type="vanished">Impossible de mettre la clef en mode de mise à jour.</translation>
     </message>
     <message>
         <source>Firmware exported</source>
-        <translation>Le micrologiciel a été exporté</translation>
+        <translation type="vanished">Le micrologiciel a été exporté</translation>
     </message>
     <message>
         <source>Could not export firmware.</source>
-        <translation>Impossible d&apos;exporter le micrologiciel.</translation>
+        <translation type="vanished">Impossible d&apos;exporter le micrologiciel.</translation>
     </message>
     <message>
         <source>WARNING: Generating new AES keys will destroy the encrypted volumes, hidden volumes, and password safe! Continue?</source>
-        <translation>ATTENTION : générer de nouvelles clefs AES va détruire les volumes chiffrés, cachés et l&apos;espace sécurisé des mots de passe ! Continuer ?</translation>
+        <translation type="vanished">ATTENTION : générer de nouvelles clefs AES va détruire les volumes chiffrés, cachés et l&apos;espace sécurisé des mots de passe ! Continuer ?</translation>
     </message>
     <message>
         <source>Generating new AES keys</source>
-        <translation>Génération de nouvelles clefs AES</translation>
+        <translation type="vanished">Génération de nouvelles clefs AES</translation>
     </message>
     <message>
         <source>New AES keys generated</source>
-        <translation>Les nouvelles clefs AES ont été générées</translation>
+        <translation type="vanished">Les nouvelles clefs AES ont été générées</translation>
     </message>
     <message>
         <source>Keys could not be generated.</source>
-        <translation>Impossible de générer les clefs.</translation>
+        <translation type="vanished">Impossible de générer les clefs.</translation>
     </message>
     <message>
         <source>Could not clear SD card.</source>
-        <translation>Impossible de nettoyer la carte SD.</translation>
+        <translation type="vanished">Impossible de nettoyer la carte SD.</translation>
     </message>
     <message>
         <source>Communication issue.</source>
-        <translation>Erreur de communication.</translation>
+        <translation type="vanished">Erreur de communication.</translation>
     </message>
     <message>
         <source>Flag cannot be cleared.</source>
-        <translation>Les drapeaux n&apos;ont pas pu être nettoyés.</translation>
+        <translation type="vanished">Les drapeaux n&apos;ont pas pu être nettoyés.</translation>
     </message>
     <message>
         <source>Flag cleared.</source>
-        <translation>Drapeaux nettoyés.</translation>
+        <translation type="vanished">Drapeaux nettoyés.</translation>
     </message>
     <message>
         <source>Cannot set unencrypted volume read-only</source>
-        <translation>Impossible de placer le volume déchiffré en lecture seule</translation>
+        <translation type="vanished">Impossible de placer le volume déchiffré en lecture seule</translation>
     </message>
     <message>
         <source>Unencrypted volume set read-only</source>
-        <translation>Le volume déchiffré a été placé en lecture seule</translation>
+        <translation type="vanished">Le volume déchiffré a été placé en lecture seule</translation>
     </message>
     <message>
         <source>Cannot set unencrypted volume read-write</source>
-        <translation>Impossible de rendre le volume déchiffré accessible en lecture et en écriture</translation>
+        <translation type="vanished">Impossible de rendre le volume déchiffré accessible en lecture et en écriture</translation>
     </message>
     <message>
         <source>Unencrypted volume set read-write</source>
-        <translation>Le volume déchiffré est désormais accessible en lecture et en écriture</translation>
-    </message>
-    <message>
-        <source>Cannot set encrypted volume read-only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Encrypted volume set read-only</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cannot set encrypted volume read-write</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Encrypted volume set read-write</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Le volume déchiffré est désormais accessible en lecture et en écriture</translation>
     </message>
     <message>
         <source>Functionality not implemented in current version</source>
-        <translation>Cette fonctionnalité n&apos;est pas disponible dans la version actuelle</translation>
+        <translation type="vanished">Cette fonctionnalité n&apos;est pas disponible dans la version actuelle</translation>
     </message>
     <message>
         <source>Hidden volume created</source>
-        <translation>Le volume caché a été créé</translation>
+        <translation type="vanished">Le volume caché a été créé</translation>
     </message>
     <message>
         <source>Hidden volume could not be created.</source>
-        <translation>Le volume caché n&apos;a pas pu être créé.</translation>
-    </message>
-    <message>
-        <source>To complete the lock procedure, please remove and reconnect the Nitrokey.</source>
-        <translation type="unfinished"></translation>
+        <translation type="vanished">Le volume caché n&apos;a pas pu être créé.</translation>
     </message>
 </context>
 <context>
     <name>Tray</name>
     <message>
         <source>Active (debug mode)</source>
-        <translation>Activée (mode de débogage)</translation>
+        <translation type="vanished">Activée (mode de débogage)</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Activée</translation>
+        <translation type="vanished">Activée</translation>
     </message>
     <message>
         <source>Nitrokey is not connected!</source>
-        <translation type="unfinished">La Nitrokey n&apos;est pas connectée !</translation>
+        <translation type="obsolete">La Nitrokey n&apos;est pas connectée !</translation>
     </message>
     <message>
         <source>Unlock password safe</source>
-        <translation>Débloquer l&apos;espace sécurisé des mots de passe</translation>
+        <translation type="vanished">Débloquer l&apos;espace sécurisé des mots de passe</translation>
     </message>
     <message>
         <source>&amp;OTP</source>
-        <translation>&amp;OTP</translation>
+        <translation type="vanished">&amp;OTP</translation>
     </message>
     <message>
         <source>&amp;Factory reset</source>
-        <translation>&amp;Réinitialisation aux paramètres d&apos;usine</translation>
+        <translation type="vanished">&amp;Réinitialisation aux paramètres d&apos;usine</translation>
     </message>
     <message>
         <source>&amp;Change User PIN</source>
-        <translation>&amp;Changer le PIN utilisateur</translation>
+        <translation type="vanished">&amp;Changer le PIN utilisateur</translation>
     </message>
     <message>
         <source>&amp;Change Admin PIN</source>
-        <translation>&amp;Changer le PIN administrateur</translation>
+        <translation type="vanished">&amp;Changer le PIN administrateur</translation>
     </message>
     <message>
         <source>&amp;Debug</source>
-        <translation>&amp;Débogage</translation>
+        <translation type="vanished">&amp;Débogage</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>&amp;Quitter</translation>
+        <translation type="vanished">&amp;Quitter</translation>
     </message>
     <message>
         <source>&amp;About Nitrokey</source>
-        <translation>&amp;À propos de Nitrokey</translation>
+        <translation type="vanished">&amp;À propos de Nitrokey</translation>
     </message>
     <message>
         <source>&amp;OTP and Password safe</source>
-        <translation>Espace sécurisé des mots de passe et &amp;OTP</translation>
+        <translation type="vanished">Espace sécurisé des mots de passe et &amp;OTP</translation>
     </message>
     <message>
         <source>&amp;Unlock encrypted volume</source>
-        <translation>&amp;Déverrouiller le volume chiffré</translation>
+        <translation type="vanished">&amp;Déverrouiller le volume chiffré</translation>
     </message>
     <message>
         <source>&amp;Lock encrypted volume</source>
-        <translation>&amp;Verrouiller le volume chiffré</translation>
+        <translation type="vanished">&amp;Verrouiller le volume chiffré</translation>
     </message>
     <message>
         <source>&amp;Unlock hidden volume</source>
-        <translation>&amp;Déverrouiller le volume caché</translation>
+        <translation type="vanished">&amp;Déverrouiller le volume caché</translation>
     </message>
     <message>
         <source>&amp;Lock hidden volume</source>
-        <translation>&amp;Verrouiller le volume caché</translation>
+        <translation type="vanished">&amp;Verrouiller le volume caché</translation>
     </message>
     <message>
         <source>&amp;Change Firmware Password</source>
-        <translation>&amp;Changer le mot de passe du micrologiciel</translation>
+        <translation type="vanished">&amp;Changer le mot de passe du micrologiciel</translation>
     </message>
     <message>
         <source>&amp;Enable firmware update</source>
-        <translation>&amp;Activer les mises à jour du micrologiciel</translation>
+        <translation type="vanished">&amp;Activer les mises à jour du micrologiciel</translation>
     </message>
     <message>
         <source>&amp;Export firmware to file</source>
-        <translation>&amp;Exporter le micrologiciel vers un fichier</translation>
+        <translation type="vanished">&amp;Exporter le micrologiciel vers un fichier</translation>
     </message>
     <message>
         <source>&amp;Destroy encrypted data</source>
-        <translation>&amp;Détruire les données chiffrées</translation>
+        <translation type="vanished">&amp;Détruire les données chiffrées</translation>
     </message>
     <message>
         <source>&amp;Initialize device</source>
-        <translation>&amp;Initialiser la clef</translation>
+        <translation type="vanished">&amp;Initialiser la clef</translation>
     </message>
     <message>
         <source>&amp;Initialize storage with random data</source>
-        <translation>&amp;Initialiser le stockage à l&apos;aide de données aléatoires</translation>
+        <translation type="vanished">&amp;Initialiser le stockage à l&apos;aide de données aléatoires</translation>
     </message>
     <message>
         <source>&amp;Set unencrypted volume read-only</source>
-        <translation>&amp;Rendre le volume déchiffré accessible seulement en lecture</translation>
+        <translation type="vanished">&amp;Rendre le volume déchiffré accessible seulement en lecture</translation>
     </message>
     <message>
         <source>&amp;Set unencrypted volume read-write</source>
-        <translation>&amp;Rendre le volume déchiffré accessible en lecture-écriture</translation>
+        <translation type="vanished">&amp;Rendre le volume déchiffré accessible en lecture-écriture</translation>
     </message>
     <message>
         <source>&amp;Set encrypted volume read-only</source>
-        <translation>&amp;Définir le volume chiffré en lecture seule</translation>
+        <translation type="vanished">&amp;Définir le volume chiffré en lecture seule</translation>
     </message>
     <message>
         <source>&amp;Set encrypted volume read-write</source>
-        <translation>&amp;Définir le volume chiffré en lecture-écriture</translation>
+        <translation type="vanished">&amp;Définir le volume chiffré en lecture-écriture</translation>
     </message>
     <message>
         <source>&amp;Setup hidden volume</source>
-        <translation>&amp;Configurer le volume caché</translation>
+        <translation type="vanished">&amp;Configurer le volume caché</translation>
     </message>
     <message>
         <source>&amp;Disable &apos;initialize storage with random data&apos; warning</source>
-        <translation>&amp;Désactiver l&apos;avertissement &apos;Initialiser le stockage à l&apos;aide de données aléatoires&apos;</translation>
+        <translation type="vanished">&amp;Désactiver l&apos;avertissement &apos;Initialiser le stockage à l&apos;aide de données aléatoires&apos;</translation>
     </message>
     <message>
         <source>&amp;Lock stick hardware</source>
-        <translation>&amp;Verrouiller le micrologiciel de la clef</translation>
+        <translation type="vanished">&amp;Verrouiller le micrologiciel de la clef</translation>
     </message>
     <message>
         <source>&amp;Reset User PIN</source>
-        <translation>&amp;Réinitialiser le PIN utilisateur</translation>
+        <translation type="vanished">&amp;Réinitialiser le PIN utilisateur</translation>
     </message>
     <message>
         <source>&amp;Lock Device</source>
-        <translation>&amp;Verrouiller la clef</translation>
+        <translation type="vanished">&amp;Verrouiller la clef</translation>
     </message>
     <message>
         <source>Smartcard or SD card are not ready</source>
-        <translation>La smartcard ou la carte SD n&apos;est pas prête</translation>
+        <translation type="vanished">La smartcard ou la carte SD n&apos;est pas prête</translation>
     </message>
     <message>
         <source>Passwords</source>
-        <translation>Mots de passe</translation>
+        <translation type="vanished">Mots de passe</translation>
     </message>
     <message>
         <source>(empty)</source>
-        <translation>(vide)</translation>
+        <translation type="vanished">(vide)</translation>
     </message>
     <message>
         <source>Configure</source>
-        <translation>Configurer</translation>
+        <translation type="vanished">Configurer</translation>
     </message>
     <message>
         <source>Special Configure</source>
-        <translation>Configuration spéciale</translation>
+        <translation type="vanished">Configuration spéciale</translation>
     </message>
     <message>
         <source>Long operation in progress: %1%</source>
-        <translation>Une longue opération est en cours : %1%</translation>
+        <translation type="vanished">Une longue opération est en cours : %1%</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Aide</translation>
+        <translation type="vanished">&amp;Aide</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Vue d&apos;ensemble</translation>
+        <translation type="vanished">&amp;Vue d&apos;ensemble</translation>
     </message>
 </context>
 <context>
@@ -1534,47 +1506,47 @@ Pour éviter toute perte de données, merci de démonter les partitions avant de
     <name>main</name>
     <message>
         <source>Nitrokey App - Manage your Nitrokey sticks</source>
-        <translation>Nitrokey App - Gestion de vos Nitrokey</translation>
+        <translation type="vanished">Nitrokey App - Gestion de vos Nitrokey</translation>
     </message>
     <message>
         <source>Enable debug messages</source>
-        <translation>Activer les messages de débogage</translation>
+        <translation type="vanished">Activer les messages de débogage</translation>
     </message>
     <message>
         <source>Save debug log to file with name &lt;log-file-name&gt; (experimental)</source>
-        <translation>Enregistrer le journal de débogage dans un fichier nommé &lt;log-file-name&gt; (expérimental)</translation>
+        <translation type="vanished">Enregistrer le journal de débogage dans un fichier nommé &lt;log-file-name&gt; (expérimental)</translation>
     </message>
     <message>
         <source>Save debug log to App&apos;s window (experimental)</source>
-        <translation>Afficher le journal de débogage dans la fenêtre de l&apos;application (expérimental)</translation>
+        <translation type="vanished">Afficher le journal de débogage dans la fenêtre de l&apos;application (expérimental)</translation>
     </message>
     <message>
         <source>Set debug level, 0-4</source>
-        <translation>Positionner le niveau de débogage, 0-4</translation>
+        <translation type="vanished">Positionner le niveau de débogage, 0-4</translation>
     </message>
     <message>
         <source>Set delay between commands sent to device (in ms) to &lt;delay&gt;</source>
-        <translation>Régler le délai entre deux commandes envoyées à la clef sur &lt;delay&gt; (en ms)</translation>
+        <translation type="vanished">Régler le délai entre deux commandes envoyées à la clef sur &lt;delay&gt; (en ms)</translation>
     </message>
     <message>
         <source>Show additional information about binary</source>
-        <translation>Afficher les informations additionnelles à propos du binaire</translation>
+        <translation type="vanished">Afficher les informations additionnelles à propos du binaire</translation>
     </message>
     <message>
         <source>Enable extra administrative functions</source>
-        <translation>Activer les fonctions d&apos;administration additionnelles</translation>
+        <translation type="vanished">Activer les fonctions d&apos;administration additionnelles</translation>
     </message>
     <message>
         <source>List available languages</source>
-        <translation>Lister les traductions disponibles</translation>
+        <translation type="vanished">Lister les traductions disponibles</translation>
     </message>
     <message>
         <source>Load translation file with given name and store this choice in settings file.</source>
-        <translation>Charger un fichier de traduction portant ce nom et enregistrer ce choix dans le fichier de configuration.</translation>
+        <translation type="vanished">Charger un fichier de traduction portant ce nom et enregistrer ce choix dans le fichier de configuration.</translation>
     </message>
     <message>
         <source>Clear all application&apos;s settings</source>
-        <translation>Effacer tous les paramètres de l&apos;application</translation>
+        <translation type="vanished">Effacer tous les paramètres de l&apos;application</translation>
     </message>
 </context>
 <context>
